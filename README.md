@@ -1,7 +1,7 @@
 wikicortex
 ==========
 
-A MediaWiki based tool to hierarchically gather your thoughts and knowledge. 
+A MediaWiki based tool to hierarchically network your thoughts and knowledge. 
 
 Knowledge is a network, it might be useful to be able to represent as such (using open source software).
 
