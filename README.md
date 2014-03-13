@@ -25,3 +25,6 @@ Soon, important
 
 Not soon, important
   - Automatic wiki backups
+  - 
+
+This is a very early prototype. Any bad ideas or poor design is due to Robolobster, anything about this project that is useful and/or virtuous is thanks to Yaron and PiRSsquared17 of MediaWiki.
