@@ -162,3 +162,9 @@ $wgAutoloadClasses['MyHooks'] = 'MyHooks.php';
 $wgAutoloadClasses['CortexCreatePageJob'] = 'MyHooks.php';
 $wgJobClasses['createPage'] = 'CortexCreatePageJob';
 $wgHooks['PageContentSaveComplete'][] = 'MyHooks::onPageContentSaveComplete';
+
+
+// The following forces the display of PHP errors which might customarily not be printed to screen
+
+error_reporting( E_ALL );
+ini_set( 'display_errors', 1 );
