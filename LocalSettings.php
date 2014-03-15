@@ -168,3 +168,6 @@ $wgHooks['PageContentSaveComplete'][] = 'MyHooks::onPageContentSaveComplete';
 
 error_reporting( E_ALL );
 ini_set( 'display_errors', 1 );
+
+// Notify users of interrupted access due to backup
+$wgReadOnly = 'Dumping Database, Access will be restored shortly';
