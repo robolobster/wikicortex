@@ -11,6 +11,7 @@ These are the intented features, and the possible ways to implement them:
 Soon, important
   - Backlinks transcluded into every page - This helps show the context of a thought in the hierarchy of thoughts.
       * Implemented: Changed the first line of SpecialWhatLinksHere to extend IncludableSpecialPage. Simple!
+      * This has been independently done by someone else here https://gerrit.wikimedia.org/r/#/c/106625/
       * SMW can do backlinks for properties (relations) eg. {{#ask:[[Is parent of::{{PAGENAME}}]]}}
   - Autocomplete links - This makes it easy to create thoughts and connect them quickly.
     See:
@@ -25,6 +26,6 @@ Soon, important
 
 Not soon, important
   - Automatic wiki backups
-  - 
+  - What is $from for? Automatically created from $from ?
 
 This is a very early prototype. Any bad ideas or poor design is due to Robolobster, anything about this project that is useful and/or virtuous is thanks to Yaron and PiRSsquared17 of MediaWiki.
